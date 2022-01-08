@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend of Neostore",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Monali Gangane",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongose": "0.0.2-security",
+    "nodemon": "^2.0.15"
+  }
+}
